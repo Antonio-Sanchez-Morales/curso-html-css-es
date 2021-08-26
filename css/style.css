@@ -2,12 +2,24 @@
   --gray30: #212121;
   --gray20: #212429;
   --gray10: #616161;
+  --yellow: #FEC62E;
 }
 
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
 
 body {
   color: var(--gray30);
   font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+  /* width: 1366px; */
+  height: 350px;
+  background-image: url(/img/background.png);
 }
 
 header {
@@ -39,4 +51,9 @@ h2 {
 
 h3 {
   font-size: 24px;
+}
+
+pre {
+  background-color: var(--yellow);
+  padding: 40px;
 }
