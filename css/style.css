@@ -1,0 +1,42 @@
+:root {
+  --gray30: #212121;
+  --gray20: #212429;
+  --gray10: #616161;
+}
+
+
+body {
+  color: var(--gray30);
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  color: var(--gray10);
+  font-size: 14px;
+}
+
+nav details summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+header a {
+  color: var(--gray10);
+  text-decoration: none;
+}
+
+header a:hover {
+  color: var(--gray30);
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
