@@ -1,6 +1,7 @@
 :root {
   --gray30: #212121;
   --gray20: #212429;
+  --gray15: #424242;
   --gray10: #616161;
   --yellow: #FEC62E;
 }
@@ -56,4 +57,30 @@ h3 {
 pre {
   background-color: var(--yellow);
   padding: 40px;
+}
+
+footer {
+  height: 174px;
+  background-color: var(--gray20);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 125px;
+}
+input {
+  color: #424242;
+  padding: 10px;
+  border-radius: 40px;
+}
+button {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 40px;
+  width: 119px;
+}
+.newsletter {
+  color: var(--gray15);
+  font-weight: normal;
 }
